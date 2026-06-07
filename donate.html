@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donate - Adalet Charity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="donate.html">Donate</a>
+  </nav>
+
+  <header>
+    <h1>Support Adalet Charity</h1>
+    <p>Your generosity helps us continue our community work.</p>
+  </header>
+
+  <main>
+    <!-- Netlify Form -->
+    <section>
+      <h2>Donate Online</h2>
+      <form name="donation" method="POST" data-netlify="true">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="amount">Donation Amount (USD):</label>
+        <input type="number" id="amount" name="amount" min="1" required>
+
+        <button type="submit">Pledge Donation</button>
+      </form>
+    </section>
+
+    <!-- Bank Transfer Details -->
+    <section>
+      <h2>Donate via Bank Transfer</h2>
+      <p>You can also support us directly through our bank account:</p>
+
+      <table>
+        <tr><td><strong>Bank Name:</strong></td><td>CAL Bank</td></tr>
+        <tr><td><strong>Branch:</strong></td><td>Essiama Branch</td></tr>
+        <tr><td><strong>Account Title:</strong></td><td>ADALET CHARITY ORGANISATION LBG</td></tr>
+        <tr><td><strong>Account Number:</strong></td><td>1400006724894</td></tr>
+        <tr><td><strong>SWIFT Code:</strong></td><td>ACCCGHACXXX</td></tr>
+        <tr><td><strong>Currency:</strong></td><td>USD</td></tr>
+      </table>
+
+      <p><em>Please include your name in the transfer reference so we can acknowledge your support.</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Adalet Charity Organisation</p>
+  </footer>
+</body>
+</html>
